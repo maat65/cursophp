@@ -9,3 +9,21 @@ var_dump($v);
 
 O valor para variavel booleana false é vazio
 e qualquer outro valor é true
+
+O '.' é usado como '+' em contexto de concatenação de strings, junção
+
+Strings com aspas duplas "", são como todas strings de outras linguagens
+Agora para strings com aspas simples '', não há interpretação de conteúdo, isto é, caso haja um codigo de emoji, ele não interpretará e enviará o código ao invés de substituir pelo emoji
+
+Por exemplo: 
+$nome = "Mateus"
+echo("Meu nome é $nome"); irá ter como saída "Meu nome é Mateus"
+echo('Meu nome é $nome'); irá ter como saída "Meu nome é $nome"
+
+Sequencias de escapes conhecidas:
+\n = Quebra de linha
+\t = Tabulação horizontal
+\\ = Barra invertida
+\$ = Sinal de cifrão
+\u{} = Codepoint Unicode
+
