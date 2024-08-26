@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de variaveis em PHP</title>
+</head>
+<body>
+    <h1>Tipos de variaveis em PHP</h1>
+    <?php 
+        $string = "teste";
+        $int = 10;
+        $float = 52.3;
+        $booleano = true;
+        $teste = false;
+
+        echo("<p>Esse é um exemplo de string: $string</p>");
+        echo("<p>Esse é um exemplo de int: $int</p>");
+        echo("<p>Esse é um exemplo de float: $float</p>");
+        echo("<p>Esse é um exemplo de booleano true: $booleano</p>");
+        echo("<p>Esse é um exemplo de booleano false: $teste</p>");
+    ?>
+    
+</body>
+</html>

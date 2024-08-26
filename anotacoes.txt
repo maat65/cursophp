@@ -1,2 +1,4 @@
 variaveis = $txt
 constantes = const TXT
+
+variaveis em php são case sensitive
