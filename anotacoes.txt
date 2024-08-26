@@ -6,3 +6,6 @@ variaveis em php são case sensitive
 var_dump() = usado para especificar tipo da variavel
 $v = array(10);
 var_dump($v);
+
+O valor para variavel booleana false é vazio
+e qualquer outro valor é true

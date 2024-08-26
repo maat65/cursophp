@@ -27,8 +27,8 @@
         echo("<p>Esse é um exemplo de booleano true: $booleano</p>");
         echo("<p>Esse é um exemplo de booleano false: $teste</p>");
 
-        $v = array(10);
-        var_dump($v);
+        var_dump($int);
+        var_dump($string);
     ?>
     
 </body>
