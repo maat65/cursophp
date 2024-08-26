@@ -1,0 +1,2 @@
+variaveis = $txt
+constantes = const TXT
