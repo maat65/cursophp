@@ -25,10 +25,16 @@
         echo("<p>Esse é um exemplo de int: $intoctal</p>");
         echo("<p>Esse é um exemplo de float: $float</p>");
         echo("<p>Esse é um exemplo de booleano true: $booleano</p>");
-        echo("<p>Esse é um exemplo de booleano false: $teste</p>");
+        echo("<p>Esse é um exemplo de booleano false: $teste</p>"); // O valor para variavel booleana false é vazio
 
         var_dump($int);
         var_dump($string);
+
+
+        $nome = "teste";
+        $mirante = "mirante";
+        echo("<p>$nome \"Parque\" $mirante</p>") // a \ é considerado uma sequencia de escape
+
     ?>
     
 </body>
