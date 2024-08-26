@@ -45,3 +45,7 @@ pow() = Operador de potência
 sin(), cos(), tan() = Função para calcular seno, cosseno e tangente, respectivamente
 sqrt() = Função para se obter a raíz quadrada de um números
 
+Caso eu tente somar da seguinte forma:
+$r = "2" + "2";
+echo($r);
+Ele irá retornar o 4, tendo em vista que em PHP o '+' ele só é usado para questões de adição, fazendo com que ele interprete essa string e perceba que só possui números, fazendo então, a conta. Caso alguma delas se torne um string, ela retornará um erro.
