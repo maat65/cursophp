@@ -27,3 +27,21 @@ Sequencias de escapes conhecidas:
 \$ = Sinal de cifrão
 \u{} = Codepoint Unicode
 
+função get em form faz com que as entradas apareçam na URL, já a função post em form faz com que as entradas apareçam entrelinhas, no cabeçalho
+form action = para onde a entrada vai; method = get ou post
+
+$_REQUEST é a junção do $_GET, $_POST e $_COOKIES que são onde estarão as entradas de nome e sobrenome do formulário
+
+O uso de "??" nas variaveis do $_GET e $_POST é usado para subsituir por outra variavel caso não tenha recebido nenhuma entrada para tal variavel
+
+Funções de operações aritméticas
+abs() = Valor absoluto, retira os sinais de uma variavel, valor, por exemplo numero negativo se torna positivo
+base_convert() = Transformação de números binários, octais, decimais, hexadecimais
+ceil(), floor(), round() = Funções de aproximações, seja ceil() aproximando para cima; floor() aproximando para baixo; round() aproximando para média
+intdiv() = Divisão apenas por números inteiros, não possibilitando o resultado float
+min() e max() = Exibe o menor e maior valor de uma sequência, respectivamente
+pi() ou M_PI = Valor de pi
+pow() = Operador de potência
+sin(), cos(), tan() = Função para calcular seno, cosseno e tangente, respectivamente
+sqrt() = Função para se obter a raíz quadrada de um números
+
