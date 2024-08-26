@@ -8,14 +8,21 @@
 <body>
     <h1>Tipos de variaveis em PHP</h1>
     <?php 
+        // 0x = hexadecimal, 0b = binário, 0 = octal
         $string = "teste";
         $int = 10;
+        $inthexa = 0x11; // deveria aparecer 17
+        $intbin = 0b1110; // deveria aparecer 14
+        $intoctal = 010; // deveria aparecer 8
         $float = 52.3;
         $booleano = true;
         $teste = false;
 
         echo("<p>Esse é um exemplo de string: $string</p>");
         echo("<p>Esse é um exemplo de int: $int</p>");
+        echo("<p>Esse é um exemplo de int: $inthexa</p>");
+        echo("<p>Esse é um exemplo de int: $intbin</p>");
+        echo("<p>Esse é um exemplo de int: $intoctal</p>");
         echo("<p>Esse é um exemplo de float: $float</p>");
         echo("<p>Esse é um exemplo de booleano true: $booleano</p>");
         echo("<p>Esse é um exemplo de booleano false: $teste</p>");
