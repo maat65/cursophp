@@ -2,3 +2,7 @@ variaveis = $txt
 constantes = const TXT
 
 variaveis em php são case sensitive
+
+var_dump() = usado para especificar tipo da variavel
+$v = array(10);
+var_dump($v);
