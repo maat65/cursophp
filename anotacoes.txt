@@ -56,4 +56,4 @@ O uso de rand() e mt_rand() serve, porém o uso de random_int() garante uma melh
 
 1 Dólar = 5,51 Reais
 
-
+O number format é usado para internacionalizar as moedas para que não haja problemas para usuários de outros países
