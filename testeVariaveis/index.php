@@ -15,7 +15,7 @@
         $intbin = 0b1110; // deveria aparecer 14
         $intoctal = 010; // deveria aparecer 8
         $float = 52.3;
-        $booleano = true;
+        $booleano = true; a
         $teste = false;
 
         echo("<p>Esse é um exemplo de string: $string</p>");
