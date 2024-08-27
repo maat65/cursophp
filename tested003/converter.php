@@ -14,7 +14,7 @@
             $valor = $_GET["real"] ?? 0;
             $dolar = $valor / $cotacao;
 
-            echo("<p>O valor <strong>R\$" . number_format($valor, 2, ",", ".") . "</strong> equivale a um total de <strong>U\$" . number_format($dolar, 2, ",", ".") ."</strong> dólares");
+            echo("<p>O valor <strong>R\$" . number_format($valor, 2, ",", ".") . "</strong> equivale a um total de <strong>U\$" . number_format($dolar, 2, ",", ".") ."</strong> dólares</p>");
     
         ?>
     </main>
