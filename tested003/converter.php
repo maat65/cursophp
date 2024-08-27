@@ -11,7 +11,7 @@
         <h1>Valor convertido do Real para Dólar</h1>
         <?php 
             $cotacao = 5.51;
-            $valor = $_GET["real"];
+            $valor = $_GET["real"] ?? 0;
             $dolar = $valor / $cotacao;
 
             echo("<p>O valor <strong>R\$" . number_format($valor, 2, ",", ".") . "</strong> equivale a um total de <strong>U\$" . number_format($dolar, 2, ",", ".") ."</strong> dólares");

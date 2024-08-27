@@ -11,7 +11,7 @@
         <h1>Valor convertido do Real para Dólar</h1>
         <?php 
             $cotacao = 5.51;
-            $real = $_GET["real"];
+            $real = $_GET["real"] ?? 0;
             $dolar = $real / $cotacao;
 
             $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY); // Função para internacionalização das moedas
