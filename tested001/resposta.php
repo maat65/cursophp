@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Antecessor e Sucessor do número</h1>
     <main>
+    <h1>Antecessor e Sucessor do número</h1>
         <?php 
             $num = $_GET["numero"];
             $antecessor = $num - 1;
             $sucessor = $num + 1;
 
-            echo("O número <strong>$num</strong> possui como antecessessor o número <strong>$antecessor</strong> e como sucessor o número <strong>$sucessor</strong>");
+            echo("<p>O número <strong>$num</strong> possui como antecessessor o número <strong>$antecessor</strong> e como sucessor o número <strong>$sucessor</strong></p>");
     
     
         ?>
