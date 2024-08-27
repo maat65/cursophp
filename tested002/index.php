@@ -17,6 +17,5 @@
         ?>
         <button onclick="javascript:document.location.reload()">Gerar outro número</button>
     </main>
-    
 </body>
 </html>
