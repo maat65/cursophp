@@ -9,10 +9,10 @@
 <body>
     <main>
         <?php 
-            $v1 = $_GET["v1"] ?? '';
-            $p1 = $_GET["p1"] ?? '';
-            $v2 = $_GET["v2"] ?? '';
-            $p2 = $_GET["p2"] ?? '';
+            $v1 = $_GET["v1"] ?? 0;
+            $p1 = $_GET["p1"] ?? 1;
+            $v2 = $_GET["v2"] ?? 0;
+            $p2 = $_GET["p2"] ?? 1;
         ?>
         <h1>Médias Aritméticas</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
